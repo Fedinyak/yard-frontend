@@ -1,1 +1,84 @@
+body {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 20px;
+  padding-bottom: 31px;
+  background-image: url(Img/background-1.png);
+}
+
+.hdr {
+  background: white;
+ 
+ /* margin-top: -30px;
+  margin-right: -130px;
+  margin-left: -130px;*/
+}
+
+.logo-hdr {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-menu a {
+  padding-left: 32px;
+}
+
+
+
+.jumbotron {
+  display: flex;
+  flex-flow: row wrap;
+  background: black;
+  text-align: center;
+  justify-content: center;
+  /*padding-top: 80px;
+  text-align: center;
+  padding-bottom: 80px;
+  margin-right: -130px;
+  margin-left: -130px;
+*/
+}
+
+.big-logo {
+  flex: 1 100%;
+}
+
+.intro {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+button {
+  background: black; 
+  width: 193px;
+  height: 40px;
+  border-radius: 2px;
+}
+
+.catalog {
+  background: white;
+  display: flex;
+}
+
+.dev-inf {
+  padding-top: 1px;
+  padding-left: 32px;
+}
+
+.line-inf {
+  color: red;
+}
+
+
+
 
