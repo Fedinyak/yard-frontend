@@ -1,7 +1,4 @@
 body {
-  /*font-family: 'Fira Sans Extra Condensed', sans-serif;
-  font-family: 'Fira Mono', monospace;
-  font-family: 'Fira Sans Condensed', sans-serif;*/
   font-family: 'Fira Sans', sans-serif;
   background-image: url(img/background-1.png);
   text-rendering: optimizeLegibility !important;
@@ -15,19 +12,19 @@ body {
   flex-wrap: wrap;
 }
 
-.logo-hdr {
+.header-logo {
   padding-top: 1.4rem;
   padding-left: 7.65rem;
   padding-bottom: 1.3rem;
 }
 
-.navigation {
+.header-navigation {
   padding-right: 7.4rem;
   padding-top: 1.45rem;
   font-size: 1rem;
   }
 
-.navigation a {
+.header-navigation a {
   padding-left: 1.6rem;
   text-decoration: none;
   color: #3e4247;
@@ -43,13 +40,13 @@ body {
   padding-bottom: 5rem;
 }
 
-.intro {
+.features {
   padding-top: 4rem;
   padding-bottom: 4rem;
   text-align: center;
 }
 
-.intro-h2 {
+.features-caption {
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
   color: #3e4247;
@@ -57,7 +54,7 @@ body {
   font-size: 1.5rem;
 }
 
-.intro-p {
+.features-text {
   color: #3e4247;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -70,15 +67,18 @@ button {
   background: black; 
   width: 193px;
   height: 40px;
-  -moz-border-radius:  2px;
-  -webkit-border-radius:  2px;
-  border-radius:  2px;
-  color: white;
+  -moz-border-radius:  0.2rem;
+  -webkit-border-radius:  0.2rem;
+  border-radius:  0.2rem;
+  border: none;
+}
+
+.btn {
+  font-size: 1rem;
   text-decoration: none;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: lighter;
-  font-size: 1rem;
-  border: none;
+  color: white;
+  margin-top: 0.5rem;
 }
 
 .complexes-link {
@@ -102,7 +102,7 @@ button {
   height: 350px;
 }
 
-.complexes-inf {
+.complexes-content {
   padding-left: 2rem;
   border-bottom: 2px solid #646971;
 }
@@ -114,7 +114,7 @@ button {
   padding-top: 0.5rem;
 }
 
-.complexes-h3 {
+.complexes-caption {
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
   font-size: 2.5rem;
@@ -122,7 +122,7 @@ button {
   color: black;
 }
 
-.complexes-p{
+.complexes-text {
   color: #3e4247;
   font-size: 1rem;
   line-height: 1.5rem;
@@ -138,14 +138,14 @@ button {
   padding-right: 7.5rem;
 }
 
-.footer-h4 {
+.footer-caption {
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
   color: #646971;
   font-size: 0.9rem;
 }
 
-.footer-p {
+.footer-text {
   color: #a9afb6;
   font-size: 0.9rem;
   font-weight: lighter;
@@ -157,7 +157,7 @@ button {
   margin-top: 1rem;
 }
 
-.footer-link-p {
+.footer-list {
   line-height: 2rem;
   margin-top: -1rem;
 }
@@ -169,7 +169,7 @@ button {
   font-weight: lighter;
 }
 
-.footer-border {
+.footer-border-bottom {
   border-top: 2px solid #3e4247;
   padding-left: 0px;
   margin-top: 1rem;
