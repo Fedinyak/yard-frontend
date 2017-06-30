@@ -1,84 +1,187 @@
 body {
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  /*font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-family: 'Fira Mono', monospace;
+  font-family: 'Fira Sans Condensed', sans-serif;*/
   font-family: 'Fira Sans', sans-serif;
-  font-family: 'Fira Sans Condensed', sans-serif;
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top: 20px;
-  padding-bottom: 31px;
   background-image: url(Img/background-1.png);
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased;
 }
 
-.hdr {
+.header-container {
   background: white;
- 
- /* margin-top: -30px;
-  margin-right: -130px;
-  margin-left: -130px;*/
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .logo-hdr {
-  display: flex;
-  justify-content: flex-start;
+  padding-top: 1.4rem;
+  padding-left: 7.65rem;
+  padding-bottom: 1.3rem;
 }
 
 .navigation {
-  display: flex;
-  justify-content: flex-end;
+  padding-right: 7.4rem;
+  padding-top: 1.45rem;
+  font-size: 1rem;
+  }
+
+.navigation a {
+  padding-left: 1.6rem;
+  text-decoration: none;
+  color: #3e4247;
 }
 
-.nav-menu a {
-  padding-left: 32px;
-}
-
-
-
-.jumbotron {
+.banner {
   display: flex;
   flex-flow: row wrap;
   background: black;
-  text-align: center;
   justify-content: center;
-  /*padding-top: 80px;
+  padding-top: 4.8rem;
   text-align: center;
-  padding-bottom: 80px;
-  margin-right: -130px;
-  margin-left: -130px;
-*/
-}
-
-.big-logo {
-  flex: 1 100%;
+  padding-bottom: 5rem;
 }
 
 .intro {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
   text-align: center;
+}
+
+.intro-h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: #3e4247;
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+}
+
+.intro-p {
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: -0.4rem;
 }
 
 button {
   background: black; 
   width: 193px;
   height: 40px;
-  border-radius: 2px;
+  -moz-border-radius:  2px;
+  -webkit-border-radius:  2px;
+  border-radius:  2px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 1rem;
+  border: none;
 }
 
-.catalog {
-  background: white;
+.complexes-link {
+  text-decoration: none;
+}
+
+.complexes {
+  background-color: white;
   display: flex;
+  margin-bottom: 3rem;
+  margin-left: 7.65rem;
+  margin-right: 7.65rem;
 }
 
-.dev-inf {
-  padding-top: 1px;
-  padding-left: 32px;
+.complexes:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-.line-inf {
-  color: red;
+.complexes-img {
+  width: 491px;
+  height: 350px;
 }
 
+.complexes-inf {
+  padding-left: 2rem;
+  border-bottom: 2px solid #646971;
+}
 
+.complexes-city {
+  color: #646971;
+  font-family: 'Fira Mono', monospace;
+  font-size: 1rem;
+  padding-top: 0.5rem;
+}
 
+.complexes-h3 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-top: 1.7rem;
+  color: black;
+}
 
+.complexes-p{
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: -1.5rem;
+  padding-right: 5.5rem;
+}
+
+.footer-background {
+  margin-top: 6rem;
+  background: #111111;
+  padding-top: 1rem;
+  padding-left: 7.5rem;
+  padding-right: 7.5rem;
+}
+
+.footer-h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: #646971;
+  font-size: 0.9rem;
+}
+
+.footer-p {
+  color: #a9afb6;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  margin-top: -1rem;
+  line-height: 2rem;
+}
+
+.footer-col {
+  margin-top: 1rem;
+}
+
+.footer-link-p {
+  line-height: 2rem;
+  margin-top: -1rem;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: lighter;
+}
+
+.footer-border {
+  border-top: 2px solid #3e4247;
+  padding-left: 0px;
+  margin-top: 1rem;
+}
+
+.copyright {
+  color: #a9afb6;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  line-height: 1.2rem;
+  margin-top: 4.6rem;
+  margin-left: 0.5rem;
+  margin-bottom: 2rem;
+  margin-right: 3rem;
+}
