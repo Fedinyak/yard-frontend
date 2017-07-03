@@ -1,8 +1,11 @@
 body {
   font-family: 'Fira Sans', sans-serif;
-  background-image: url(img/background-1.png);
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
+}
+
+.body-container {
+   background-image: url(img/background-1.png);
 }
 
 .header-container {
@@ -86,11 +89,15 @@ body {
   text-decoration: none;
 }
 
+.complex:last-child {
+  margin-bottom: 6rem;
+}
+
 .complex:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
 }
 
-.complex-complex {
+.complex-image {
   width: 491px;
   height: 350px;
 }
@@ -124,7 +131,6 @@ body {
 }
 
 .footer-container {
-  margin-top: 6rem;
   background: #111111;
   padding-top: 1rem;
   padding-left: 7.5rem;
