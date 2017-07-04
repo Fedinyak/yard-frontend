@@ -4,8 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.body-container {
+.main-container {
    background-image: url(img/background-1.png);
+   padding-bottom: 3rem;
 }
 
 .header-container {
@@ -87,10 +88,6 @@ body {
   margin-left: 7.65rem;
   margin-right: 7.65rem;
   text-decoration: none;
-}
-
-.complex:last-child {
-  margin-bottom: 6rem;
 }
 
 .complex:hover {
