@@ -1,0 +1,287 @@
+.line {
+  border: 0;
+  border-bottom: 1px #eaebf0 solid;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.building {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.22rem;
+}
+
+.building-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 2rem;
+  color: #3e4247;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.building-text {
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #a9afb6;
+  margin-top: 0.55rem;
+}
+
+.building-btn-container {
+  margin-top: 1.5rem;
+  width: 90px;
+  height: 26px;
+  font-size: 0.6rem;
+}
+
+.building-btn {
+  padding-top: 0.25rem;
+  width: 90px;
+  height: 26px;
+  background: white; 
+  color: #00779a;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  border-radius:  2px;
+  border: 1px #e0e0e1 solid;
+}
+
+.slider {
+  display: flex;
+  height: 400px;
+  margin-top: 0.3rem;
+}
+
+.slider-btn-container {
+  margin-top: -2.5rem;
+}
+
+.slider-btn {
+  width: 103px;
+	height: 26px;
+  padding-top: 0.25rem;
+  background: #00779a;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: lighter;
+  font-size: 0.6rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.5rem;
+  color: #3e4247;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+.features {
+  display: flex;
+  margin-top: 0.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.features-title {
+  padding-right: 3rem;
+  margin-top: 3.1rem;
+}
+
+.features-text {
+  display: block;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  color: #a9afb6;
+  line-height: 4.1rem;
+}
+
+.details {
+  margin-top: 2.9rem;
+  padding-top: 0;
+}
+
+.details-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.details-subtitle {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 1rem;
+  color: #a9afb6;
+  flex: 0 0 50%;
+  line-height: 2.1rem;
+}
+
+.details-value {
+  font-weight: 500;
+  font-size: 1rem;
+  text-align: left;
+  color: #3e4247;
+  line-height: 2.1rem;
+  margin: 0;
+}
+
+.description {
+  margin-top: 1.5rem;
+ }
+
+.description-p {
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.65rem;
+}
+
+.description-p:last-child {
+  margin-bottom: 1.5rem;
+}
+
+.structure-container {
+  margin-top: 3rem;
+  margin-bottom: 3.1rem;
+}
+
+.structure-text {
+  color: #3e4247;
+  font-size: 1rem;
+  line-height: 0.9rem;
+}
+
+.structure-text:first-child {
+  margin-top: 1.8rem;
+}
+
+.offer-container {
+  background-color: #f4f5f9;
+}
+
+.offer-headline {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.offer-card {
+  background: white;
+  margin-bottom: 4rem;
+  margin-top: 0rem;
+}
+
+.offer-title {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 1.2rem;
+  color: #3e4247;
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-bottom: 0.3rem;
+}
+
+.offer-subject {
+  font-size: 1rem;
+  color: #a9afb6;
+  padding-left: 2rem;
+}
+
+.offer-value {
+  font-size: 1rem;
+  color: #3e4247;
+  margin-left: 2rem;
+  padding-bottom: 1.8rem;
+  padding-top: 0.9rem;
+}
+
+.offer-value:last-child {
+  padding-bottom: 1.2rem;
+}
+
+.offer-btn-container {
+  display: block;
+  justify-content: center;
+}
+
+.offer-btn {
+  width: 254px;
+	height: 40px;
+	border-radius: 2px;
+	background-color: #000000;
+  border: none; 
+  color: white;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.place-container {
+  background-color: #3e4247;
+  padding-top: 3rem;
+  padding-bottom: 13.5rem;
+}
+
+.place {
+  margin-top: 1rem;
+}
+
+.place-subtitle {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #a9afb6;
+  margin-top: 7.3rem;
+}
+
+.place-headline {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: white;
+  line-height: 3.75rem;
+  margin-right: 1rem;
+}
+
+.place-link {
+  color: #00779a;
+  margin-top: 3.1rem;
+  text-decoration: none;
+}
+
+.place-image {
+  width: 600px;
+	height: 575px;
+}
+
+.place-location {
+  margin-top: -10.7rem;
+  margin-bottom: 3rem;
+}
+
+.place-map {
+	width: 591px;
+	height: 306px;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+}
+
+.place-list {
+  background-color: white;
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.3);
+  margin-top: 0;
+}
+
+.place-subject {
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  font-weight: 500;
+  color: #3e4247;
+}
+
+.place-value {
+  color: #a9afb6;
+  margin-left: 0rem;
+  padding-left: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1.55rem;
+  border-bottom: 1px #e0e0e1 solid;
+}
